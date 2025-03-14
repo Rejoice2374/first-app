@@ -1,5 +1,5 @@
 import React from "react";
-import Cat from "../assets/2170.jpg";
+import Cat from "../assets/cat.jpg";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -38,7 +38,9 @@ const Intro = () => {
           {age < 18 ? "You are not eligible" : "You are eligible, Welcome."}
         </p>
 
+        {/* Linking to another Component */}
         <Link to="/Intro2">Go to Intro2 page</Link>
+        <Link to="/Test">Test page</Link>
       </div>
     </div>
   );

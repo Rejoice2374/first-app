@@ -1,6 +1,6 @@
 import React from "react";
 
-const intro2 = () => {
+const Intro2 = () => {
   return (
     <div>
       <h2>intro 2 page</h2>
@@ -8,4 +8,4 @@ const intro2 = () => {
   );
 };
 
-export default intro2;
+export default Intro2;

@@ -1,7 +1,8 @@
 import "./App.css";
-import Test from "./Test";
+import Test from "./Component/Test";
 import Intro from "./Component/Intro";
-import Intro2 from "./Component/intro2";
+import Intro2 from "./Component/Intro2";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
