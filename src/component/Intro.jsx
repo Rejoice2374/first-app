@@ -1,6 +1,7 @@
 import React from "react";
 import Cat from "../assets/cat.jpg";
 import { useState } from "react";
+import Hero from "./Hero";
 import { Link } from "react-router-dom";
 
 const Intro = () => {
@@ -11,6 +12,7 @@ const Intro = () => {
 
   return (
     <div>
+      <Hero />
       {/* This is a comment */}
       <p>
         There's an ad that keeps chasing me on social media. The name is {app}.
