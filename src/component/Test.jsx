@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import Cat1 from "../assets/cat2.jpg";
+// import Cat1 from "../assets/cat2.jpg";
 
 const Test = () => {
   return (
@@ -10,7 +10,7 @@ const Test = () => {
       <Button variant="primary">Primary</Button>
 
       <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src={Cat1} />
+        {/* <Card.Img variant="top" src={Cat1} /> */}
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>
