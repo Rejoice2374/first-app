@@ -13,7 +13,7 @@ const menuData = [
     name: "Noodles",
     price: 500,
     Image: noodles,
-    category: "local dish",
+    category: "International dish",
     id: 1,
   },
   {
@@ -37,7 +37,7 @@ const menuData = [
     category: "International Dish",
     id: 4,
   },
-  { name: "Wine", price: 2000, Image: wine, category: "local dish", id: 5 },
+  { name: "Wine", price: 2000, Image: wine, category: "Drinks", id: 5 },
   {
     name: "Smoothies",
     price: 1050,

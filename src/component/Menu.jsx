@@ -9,6 +9,14 @@ import Card from "react-bootstrap/Card";
 
 function Menu() {
   const [menu, setMenu] = useState(menuData);
+
+  // const localDish = () => {
+  //   setMenu(menuData.filter((x) => x.category === "local dish"));
+  // };
+  const Dishes = (dish) => {
+    setMenu(menuData.filter((x) => x.category === dish));
+  };
+
   return (
     <div className="wrapper">
       <div className="left">
@@ -16,21 +24,37 @@ function Menu() {
           <p className="cat-text">SELECT CATEGORY</p>
         </b>
 
-        <button className="btn btn-success" id="btnn">
+        <button
+          className="btn btn-success"
+          id="btnn"
+          onClick={() => Dishes("local dish")}
+        >
           Local dish
         </button>
         <div>
-          <button className="btn btn-success" id="btnn">
+          <button
+            className="btn btn-success"
+            id="btnn"
+            onClick={() => Dishes("International Dish")}
+          >
             Foreign dish
           </button>
         </div>
         <div>
-          <button className="btn btn-success" id="btnn">
+          <button
+            className="btn btn-success"
+            id="btnn"
+            onClick={() => Dishes("Drinks")}
+          >
             Drinks
           </button>
         </div>
         <div>
-          <button className="btn btn-success" id="btnn">
+          <button
+            className="btn btn-success"
+            id="btnn"
+            onClick={() => setMenu(menuData)}
+          >
             All
           </button>
         </div>
@@ -44,7 +68,7 @@ function Menu() {
           <Row>
             {menu.map((m) => (
               <Col xs lg="4">
-                <Card className="card">
+                <Card style={{ width: "20rem" }} className="card">
                   <Card.Img variant="top" src={m.Image} className="img" />
                   <Card.Body>
                     <Card.Title style={{ color: "green" }}>{m.name}</Card.Title>

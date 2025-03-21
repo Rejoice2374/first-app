@@ -6,6 +6,7 @@ import Menu from "./Component/Menu";
 import Counter from "./Component/Counter";
 import ColorSchemesExample from "./Component/Navbar";
 import Footer from "./Component/Footer";
+import Order from "./Component/Order";
 // import AboutProps from "./Component/AboutProps";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -28,6 +29,7 @@ function App() {
             <Route path="/Intro2" exact element={<Intro2 />} />
             <Route path="/Test" exact element={<Test />} />
             <Route path="/Counter" exact element={<Counter />} />
+            <Route path="/Order" exact element={<Order />} />
           </Routes>
         </Router>
       </Container>

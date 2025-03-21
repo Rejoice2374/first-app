@@ -30,7 +30,7 @@ function ColorSchemesExample() {
             <Nav className="navItem">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#About">About</Nav.Link>
-              <Nav.Link href="#Place order">Place order</Nav.Link>
+              <Nav.Link href="./Order">Place order</Nav.Link>
               <Nav.Link href="#Contact">Contact</Nav.Link>
               <Nav.Link href="#Cart">Cart</Nav.Link>
             </Nav>
