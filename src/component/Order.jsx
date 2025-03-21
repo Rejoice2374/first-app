@@ -11,13 +11,13 @@ const Order = () => {
   return (
     <div>
       <div className="container">
-        <div className="row item-">
+        <div className="row text-center">
           <h1>Place Your Order</h1>
           <div className="col-12">
             <input
               type="text"
               placeholder="Search Menu..."
-              className="my-3 px-3 form-control w-50"
+              className="my-3 px-3 text-center form-control"
               onChange={searchMenu}
             />
           </div>
