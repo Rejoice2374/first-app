@@ -11,7 +11,7 @@ const Order = () => {
   return (
     <div>
       <div className="container">
-        <div className="row text-center">
+        <div className="row text-center mt-5">
           <h1>Place Your Order</h1>
           <div className="col-12">
             <input

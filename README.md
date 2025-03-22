@@ -45,9 +45,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### What is Eb's Kitchen
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This is a online food store for all kinds of international and local dishes aavailable in our restaurants nationwide.
 
 ### Analyzing the Bundle Size
 
